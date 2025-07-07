@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Invoice routes
+
 const invoiceRoutes = require('./src/routes/invouseRoutes');
 app.use('/api/invoices', invoiceRoutes);
 
